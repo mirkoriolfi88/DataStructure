@@ -115,6 +115,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="struct_queue.h" />
+    <ClInclude Include="struct_stack.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="tree_array.h" />
+    <ClInclude Include="vector_methods.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataStructure.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="stack.cpp" />
+    <ClCompile Include="struct_queue.cpp" />
+    <ClCompile Include="struct_stack.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="tree_array.cpp" />
+    <ClCompile Include="vector_methods.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

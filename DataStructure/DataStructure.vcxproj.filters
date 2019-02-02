@@ -14,4 +14,55 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataStructure.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_array.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="struct_queue.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="struct_stack.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_methods.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stack.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="tree_array.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_queue.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_stack.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_methods.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
